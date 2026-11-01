@@ -17,7 +17,7 @@ Client and server helpers for unary gRPC calls that return `gocgun.grpc.v1.Respo
 - An unhandled handler exception becomes gRPC `INTERNAL` with a fixed detail. The exception message is not in the status or the log.
 - No tenant field and no tenant interceptor.
 
-License: AGPL-3.0-only (`LICENSE`). Copyright holder exception: `LICENSE-EXCEPTION`.
+License: MIT (`LICENSE`).
 
 ## Publishing to nuget.org
 
