@@ -1,0 +1,4 @@
+﻿<Solution>
+  <Project Path="src/Gocgun.Grpc/Gocgun.Grpc.csproj" />
+  <Project Path="tests/Gocgun.Grpc.Tests/Gocgun.Grpc.Tests.csproj" />
+</Solution>

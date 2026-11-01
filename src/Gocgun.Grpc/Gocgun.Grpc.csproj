@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>Gocgun.Grpc</RootNamespace>
+    <IsPackable>true</IsPackable>
+    <PackageId>Gocgun.Grpc</PackageId>
+    <Description>Unary gRPC client and server helpers with protobuf-net code-first contracts. Responses use gocgun.grpc.v1.ResponseEnvelope. No tenancy.</Description>
+    <Version>0.1.0</Version>
+  </PropertyGroup>
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Grpc.AspNetCore.Server" />
+    <PackageReference Include="Grpc.Net.ClientFactory" />
+    <PackageReference Include="protobuf-net" />
+    <PackageReference Include="protobuf-net.Grpc" />
+    <ProjectReference Include="..\..\..\Gocgun.Results\src\Gocgun.Results\Gocgun.Results.csproj" />
+  </ItemGroup>
+</Project>
