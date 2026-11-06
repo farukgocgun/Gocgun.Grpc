@@ -14,7 +14,7 @@ public static class GrpcContractNames
 
     /// <summary>Gets the full contract name of <paramref name="type"/>.</summary>
     /// <param name="type">Type marked with <see cref="ProtoContractAttribute"/> and a non-empty name.</param>
-    /// <returns>The full name without a leading dot, for example <c>crocovity.tools.v1.Reservation</c>.</returns>
+    /// <returns>The full name without a leading dot, for example <c>shop.orders.v1.Reservation</c>.</returns>
     /// <exception cref="InvalidOperationException">The type has no contract or no contract name.</exception>
     public static string FullName(Type type)
     {
